@@ -5,6 +5,6 @@ import STORE from './STORE'
 import App from './App';
 
 ReactDOM.render(
-  <App store={STPRE} />,
-  document.getElementsById('root'),
+  <App store={STORE} />,
+  document.getElementById('root'),
 );

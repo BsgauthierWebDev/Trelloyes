@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import List from './List'
 import './App.css';
+
 class App extends Component {
   static defaultProps = {
     store: {
@@ -17,7 +18,7 @@ class App extends Component {
           <h1>Trelloyes!</h1>
         </header>
         <div className="App-list">
-          {store.losts.map(lost => (
+          {store.lists.map(list => (
             <List
             key={list.id}
             header={list.header}
